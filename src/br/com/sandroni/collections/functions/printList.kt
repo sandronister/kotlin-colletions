@@ -9,5 +9,5 @@ fun List<Book?>.print(){
         "- ${it.author} --------${it.publishYear}/${it.title}"
     }
 
-    println("-------------- LIST BOOKS -----------------\n $formatedList")
+    println("-------------- LIST BOOKS -----------------\n$formatedList")
 }
